@@ -14,7 +14,7 @@
   
   :cljsbuild {:builds
               [{:source-path "src/cljs"
-                :compiler {:output-to "public/cljs_test.js"
+                :compiler {:output-to "public/cassowary.js"
                            :libs ["dev_public/js/Singult.js"]
                            :optimizations :advanced}
-                :jar false}]})
+                :jar true}]})
